@@ -1,0 +1,860 @@
+[1533980220.558][INFO]: COMMAND InitSession {
+   "capabilities": {
+      "desiredCapabilities": {
+         "browserName": "chrome",
+         "loggingPrefs": {
+            "browser": "INFO"
+         },
+         "platform": "ANY",
+         "version": ""
+      },
+      "firstMatch": [ {
+         "browserName": "chrome"
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "loggingPrefs": {
+         "browser": "INFO"
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1533980220.561][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1533980220.565][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1533980220.576][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-automation --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\User\AppData\Local\Temp\scoped_dir17264_9352\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12255 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\User\AppData\Local\Temp\scoped_dir17264_23520" data:,
+[1533980220.986][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1533980222.013][INFO]: RESPONSE InitSession {
+   "acceptInsecureCerts": false,
+   "acceptSslCerts": false,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb)",
+      "userDataDir": "C:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir17264_23520"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "pageLoadStrategy": "normal",
+   "platform": "Windows NT",
+   "rotatable": false,
+   "setWindowRect": true,
+   "~~~": "..."
+}
+[1533980222.062][INFO]: COMMAND SetTimeout {
+   "ms": 10000,
+   "type": "implicit"
+}
+[1533980222.062][INFO]: RESPONSE SetTimeout
+[1533980222.072][INFO]: COMMAND MaximizeWindow {
+   "handle": "current",
+   "windowHandle": "current"
+}
+[1533980222.073][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1533980223.219][INFO]: RESPONSE MaximizeWindow
+[1533980223.225][INFO]: COMMAND Navigate {
+   "url": "http://knickerbocker-hotel-new-york.nochi.com/?btest=119"
+}
+[1533980223.225][INFO]: Waiting for pending navigations...
+[1533980223.239][INFO]: Done waiting for pending navigations. Status: ok
+[1533980223.867][INFO]: Waiting for pending navigations...
+[1533980242.766][INFO]: Done waiting for pending navigations. Status: ok
+[1533980242.766][INFO]: RESPONSE Navigate
+[1533980242.775][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='сб'])[2]/following::a[1]"
+}
+[1533980242.775][INFO]: Waiting for pending navigations...
+[1533980242.776][INFO]: Done waiting for pending navigations. Status: ok
+[1533980242.801][INFO]: Waiting for pending navigations...
+[1533980242.805][INFO]: Done waiting for pending navigations. Status: ok
+[1533980242.805][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-1"
+}
+[1533980242.812][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-1"
+}
+[1533980242.812][INFO]: Waiting for pending navigations...
+[1533980242.813][INFO]: Done waiting for pending navigations. Status: ok
+[1533980242.912][INFO]: Waiting for pending navigations...
+[1533980242.915][INFO]: Done waiting for pending navigations. Status: ok
+[1533980242.915][INFO]: RESPONSE ClickElement
+[1533980243.420][INFO]: COMMAND Screenshot {
+
+}
+[1533980243.420][INFO]: Waiting for pending navigations...
+[1533980243.423][INFO]: Done waiting for pending navigations. Status: ok
+[1533980243.776][INFO]: Waiting for pending navigations...
+[1533980243.780][INFO]: Done waiting for pending navigations. Status: ok
+[1533980243.780][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpAAAAOECAYAAACmXHLrAAAgAElEQVR4nOzde1zW9f3/8cfFpRceIA+YCqWQFmqBsyAT1oJO4EqzSW1BvyXWhh3EDrSVti1tS+u7yApb5Q5iW9JBaAstpRPUJlZSFmwJS0MrUAdqoSmXKL8/ruuCz+c6AQoJ+Lzfbtzg+hze7/fny..."
+[1533980244.875][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//a[contains(@href, '#facilities')])[2]"
+}
+[1533980244.876][INFO]: Waiting for pending navigations...
+[1533980244.877][INFO]: Done waiting for pending navigations. Status: ok
+[1533980244.910][INFO]: Waiting for pending navigations...
+[1533980244.912][INFO]: Done waiting for pending navigations. Status: ok
+[1533980244.912][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-2"
+}
+[1533980244.918][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-2"
+}
+[1533980244.918][INFO]: Waiting for pending navigations...
+[1533980244.919][INFO]: Done waiting for pending navigations. Status: ok
+[1533980244.984][INFO]: Waiting for pending navigations...
+[1533980244.985][INFO]: Done waiting for pending navigations. Status: ok
+[1533980244.985][INFO]: RESPONSE ClickElement
+[1533980244.988][INFO]: COMMAND Screenshot {
+
+}
+[1533980244.988][INFO]: Waiting for pending navigations...
+[1533980244.989][INFO]: Done waiting for pending navigations. Status: ok
+[1533980245.380][INFO]: Waiting for pending navigations...
+[1533980245.388][INFO]: Done waiting for pending navigations. Status: ok
+[1533980245.388][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpAAAAOECAYAAACmXHLrAAAgAElEQVR4nOzde3zcVZ34/9d8PnNLMkkm91uTSVtJi5uwxSA2VUlYMQVsBRt0aXVtyncp+KVBoKxQcIWybgvrBtCWn1h2oWW/UlQaxRahEb8m/rRh0QiSrtBoS9JLJpfJdXKdZDLfP2Ymc08maaBp+..."
+[1533980245.426][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Удобства'])[3]/following::a[1]"
+}
+[1533980245.426][INFO]: Waiting for pending navigations...
+[1533980245.446][INFO]: Done waiting for pending navigations. Status: ok
+[1533980245.472][INFO]: Waiting for pending navigations...
+[1533980245.474][INFO]: Done waiting for pending navigations. Status: ok
+[1533980245.474][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-3"
+}
+[1533980245.478][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-3"
+}
+[1533980245.478][INFO]: Waiting for pending navigations...
+[1533980245.478][INFO]: Done waiting for pending navigations. Status: ok
+[1533980245.545][INFO]: Waiting for pending navigations...
+[1533980245.546][INFO]: Done waiting for pending navigations. Status: ok
+[1533980245.547][INFO]: RESPONSE ClickElement
+[1533980245.549][INFO]: COMMAND Screenshot {
+
+}
+[1533980245.549][INFO]: Waiting for pending navigations...
+[1533980245.550][INFO]: Done waiting for pending navigations. Status: ok
+[1533980245.957][INFO]: Waiting for pending navigations...
+[1533980245.985][INFO]: Done waiting for pending navigations. Status: ok
+[1533980245.985][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpAAAAOECAYAAACmXHLrAAAgAElEQVR4nOzde3xU1b3//9feezITJFEgFEysJKIG1ESxsZagNbFaQAWxxLYG2xL6rWgrsWr8VlG/VTwt2Eu8FGgVeyS01djWxCrxKLGXpL+WeCypl3BU4tEGbROhAdEEyEwmM78/5rZnMpMbQULyf..."
+[1533980246.014][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Номера'])[3]/following::a[1]"
+}
+[1533980246.014][INFO]: Waiting for pending navigations...
+[1533980246.016][INFO]: Done waiting for pending navigations. Status: ok
+[1533980246.038][INFO]: Waiting for pending navigations...
+[1533980246.041][INFO]: Done waiting for pending navigations. Status: ok
+[1533980246.041][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-4"
+}
+[1533980246.044][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-4"
+}
+[1533980246.044][INFO]: Waiting for pending navigations...
+[1533980246.045][INFO]: Done waiting for pending navigations. Status: ok
+[1533980246.119][INFO]: Waiting for pending navigations...
+[1533980246.126][INFO]: Done waiting for pending navigations. Status: ok
+[1533980246.126][INFO]: RESPONSE ClickElement
+[1533980246.628][INFO]: COMMAND Screenshot {
+
+}
+[1533980246.628][INFO]: Waiting for pending navigations...
+[1533980246.629][INFO]: Done waiting for pending navigations. Status: ok
+[1533980247.059][INFO]: Waiting for pending navigations...
+[1533980247.060][INFO]: Done waiting for pending navigations. Status: ok
+[1533980247.060][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpAAAAOECAYAAACmXHLrAAAgAElEQVR4nOzde1xUdf7H8RcXBxXwhqlgCqkhtmIaZWIXaFOwhCyxUttWrM1qk7ZiNy9tm9Zu2m6mpXaxLXW3pBtsLZhKmVD9REvShE2lNMQCL6AioDCC/P6Y+zCDqJCK7+fjwUNnzvd8z/ec75kzM..."
+[1533980247.117][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Расположение'])[3]/following::a[1]"
+}
+[1533980247.117][INFO]: Waiting for pending navigations...
+[1533980247.118][INFO]: Done waiting for pending navigations. Status: ok
+[1533980247.142][INFO]: Waiting for pending navigations...
+[1533980247.146][INFO]: Done waiting for pending navigations. Status: ok
+[1533980247.146][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-5"
+}
+[1533980247.151][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-5"
+}
+[1533980247.151][INFO]: Waiting for pending navigations...
+[1533980247.151][INFO]: Done waiting for pending navigations. Status: ok
+[1533980247.239][INFO]: Waiting for pending navigations...
+[1533980247.246][INFO]: Done waiting for pending navigations. Status: ok
+[1533980247.246][INFO]: RESPONSE ClickElement
+[1533980247.751][INFO]: COMMAND Screenshot {
+
+}
+[1533980247.751][INFO]: Waiting for pending navigations...
+[1533980247.753][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.135][INFO]: Waiting for pending navigations...
+[1533980248.137][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.137][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpAAAAOECAYAAACmXHLrAAAgAElEQVR4nOzdd3iUZd728XNaekJIQiiBEHoVQgfpiIKKIHZdFURULKir7iOuq+8+q2vZddVnLeiua18BCy6rqCgiClJDCL2F3gKEJJS0mcnM+0eYYWoKpJDk+zkODjJ3ue5r5p6ZTO5zftdlcDqdT..."
+[1533980248.167][INFO]: COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "scroll(0,400)"
+}
+[1533980248.167][INFO]: Waiting for pending navigations...
+[1533980248.168][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.170][INFO]: Waiting for pending navigations...
+[1533980248.171][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.171][INFO]: RESPONSE ExecuteScript
+[1533980248.174][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Дата заезда'])[1]/following::span[3]"
+}
+[1533980248.174][INFO]: Waiting for pending navigations...
+[1533980248.174][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.216][INFO]: Waiting for pending navigations...
+[1533980248.224][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.224][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-6"
+}
+[1533980248.231][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-6"
+}
+[1533980248.231][INFO]: Waiting for pending navigations...
+[1533980248.243][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.423][INFO]: Waiting for pending navigations...
+[1533980248.468][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.468][INFO]: RESPONSE ClickElement
+[1533980248.474][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "svg.svg-icon.svg-icon-calendar-arrow.arrow-next"
+}
+[1533980248.474][INFO]: Waiting for pending navigations...
+[1533980248.484][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.515][INFO]: Waiting for pending navigations...
+[1533980248.522][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.522][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-7"
+}
+[1533980248.531][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-7"
+}
+[1533980248.531][INFO]: Waiting for pending navigations...
+[1533980248.542][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.735][INFO]: Waiting for pending navigations...
+[1533980248.755][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.755][INFO]: RESPONSE ClickElement
+[1533980248.761][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "svg.svg-icon.svg-icon-calendar-arrow.arrow-next"
+}
+[1533980248.761][INFO]: Waiting for pending navigations...
+[1533980248.766][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.773][INFO]: Waiting for pending navigations...
+[1533980248.774][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.774][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-7"
+}
+[1533980248.778][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-7"
+}
+[1533980248.778][INFO]: Waiting for pending navigations...
+[1533980248.779][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.861][INFO]: Waiting for pending navigations...
+[1533980248.873][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.873][INFO]: RESPONSE ClickElement
+[1533980248.879][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "svg.svg-icon.svg-icon-calendar-arrow.arrow-next"
+}
+[1533980248.879][INFO]: Waiting for pending navigations...
+[1533980248.881][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.889][INFO]: Waiting for pending navigations...
+[1533980248.890][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.890][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-7"
+}
+[1533980248.893][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-7"
+}
+[1533980248.893][INFO]: Waiting for pending navigations...
+[1533980248.893][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.943][INFO]: Waiting for pending navigations...
+[1533980248.958][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.958][INFO]: RESPONSE ClickElement
+[1533980248.964][INFO]: COMMAND FindElement {
+   "using": "css selector",
+   "value": "svg.svg-icon.svg-icon-calendar-arrow.arrow-next"
+}
+[1533980248.964][INFO]: Waiting for pending navigations...
+[1533980248.965][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.971][INFO]: Waiting for pending navigations...
+[1533980248.972][INFO]: Done waiting for pending navigations. Status: ok
+[1533980248.972][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-7"
+}
+[1533980248.977][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-7"
+}
+[1533980248.977][INFO]: Waiting for pending navigations...
+[1533980248.978][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.025][INFO]: Waiting for pending navigations...
+[1533980249.041][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.041][INFO]: RESPONSE ClickElement
+[1533980249.046][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='сб'])[2]/following::div[26]"
+}
+[1533980249.046][INFO]: Waiting for pending navigations...
+[1533980249.047][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.071][INFO]: Waiting for pending navigations...
+[1533980249.072][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.072][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-8"
+}
+[1533980249.075][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-8"
+}
+[1533980249.075][INFO]: Waiting for pending navigations...
+[1533980249.076][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.155][INFO]: Waiting for pending navigations...
+[1533980249.165][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.165][INFO]: RESPONSE ClickElement
+[1533980249.172][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='сб'])[2]/following::div[27]"
+}
+[1533980249.172][INFO]: Waiting for pending navigations...
+[1533980249.173][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.197][INFO]: Waiting for pending navigations...
+[1533980249.199][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.199][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-9"
+}
+[1533980249.202][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-9"
+}
+[1533980249.202][INFO]: Waiting for pending navigations...
+[1533980249.203][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.286][INFO]: Waiting for pending navigations...
+[1533980249.297][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.297][INFO]: RESPONSE ClickElement
+[1533980249.304][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Гости /'])[1]/following::span[2]"
+}
+[1533980249.304][INFO]: Waiting for pending navigations...
+[1533980249.330][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.364][INFO]: Waiting for pending navigations...
+[1533980249.371][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.372][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-10"
+}
+[1533980249.377][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-10"
+}
+[1533980249.377][INFO]: Waiting for pending navigations...
+[1533980249.377][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.526][INFO]: Waiting for pending navigations...
+[1533980249.613][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.613][INFO]: RESPONSE ClickElement
+[1533980249.616][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Взрослый'])[1]/following::div[4]"
+}
+[1533980249.616][INFO]: Waiting for pending navigations...
+[1533980249.617][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.641][INFO]: Waiting for pending navigations...
+[1533980249.641][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.642][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-11"
+}
+[1533980249.646][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-11"
+}
+[1533980249.647][INFO]: Waiting for pending navigations...
+[1533980249.647][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.722][INFO]: Waiting for pending navigations...
+[1533980249.763][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.763][INFO]: RESPONSE ClickElement
+[1533980249.765][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Ребенок'])[1]/following::div[4]"
+}
+[1533980249.766][INFO]: Waiting for pending navigations...
+[1533980249.766][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.788][INFO]: Waiting for pending navigations...
+[1533980249.789][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.789][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-12"
+}
+[1533980249.793][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-12"
+}
+[1533980249.793][INFO]: Waiting for pending navigations...
+[1533980249.793][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.907][INFO]: Waiting for pending navigations...
+[1533980249.949][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.949][INFO]: RESPONSE ClickElement
+[1533980249.952][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Ребенок'])[1]/following::div[4]"
+}
+[1533980249.952][INFO]: Waiting for pending navigations...
+[1533980249.953][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.966][INFO]: Waiting for pending navigations...
+[1533980249.967][INFO]: Done waiting for pending navigations. Status: ok
+[1533980249.967][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-12"
+}
+[1533980249.972][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-12"
+}
+[1533980249.972][INFO]: Waiting for pending navigations...
+[1533980249.973][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.009][INFO]: Waiting for pending navigations...
+[1533980250.018][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.018][INFO]: RESPONSE ClickElement
+[1533980250.023][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Возраст детей'])[1]/following::select[1]"
+}
+[1533980250.024][INFO]: Waiting for pending navigations...
+[1533980250.025][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.045][INFO]: Waiting for pending navigations...
+[1533980250.048][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.048][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-13"
+}
+[1533980250.051][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Номера и Гости'])[1]/following::span[1]"
+}
+[1533980250.051][INFO]: Waiting for pending navigations...
+[1533980250.052][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.074][INFO]: Waiting for pending navigations...
+[1533980250.074][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.074][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-14"
+}
+[1533980250.077][INFO]: COMMAND GetElementText {
+   "id": "0.902910936722056-14"
+}
+[1533980250.077][INFO]: Waiting for pending navigations...
+[1533980250.077][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.096][INFO]: Waiting for pending navigations...
+[1533980250.097][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.097][INFO]: RESPONSE GetElementText "5"
+[1533980250.100][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Гости /'])[1]/following::span[1]"
+}
+[1533980250.100][INFO]: Waiting for pending navigations...
+[1533980250.101][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.128][INFO]: Waiting for pending navigations...
+[1533980250.129][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.129][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-15"
+}
+[1533980250.132][INFO]: COMMAND GetElementText {
+   "id": "0.902910936722056-15"
+}
+[1533980250.132][INFO]: Waiting for pending navigations...
+[1533980250.165][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.182][INFO]: Waiting for pending navigations...
+[1533980250.189][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.189][INFO]: RESPONSE GetElementText "1"
+[1533980250.193][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-13"
+}
+[1533980250.194][INFO]: Waiting for pending navigations...
+[1533980250.195][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.293][INFO]: Waiting for pending navigations...
+[1533980250.295][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.295][INFO]: RESPONSE ClickElement
+[1533980250.304][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-13",
+   "value": [ "" ]
+}
+[1533980250.304][INFO]: Waiting for pending navigations...
+[1533980250.305][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.333][INFO]: Waiting for pending navigations...
+[1533980250.340][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.340][INFO]: RESPONSE TypeElement
+[1533980250.345][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-13",
+   "value": [ "" ]
+}
+[1533980250.345][INFO]: Waiting for pending navigations...
+[1533980250.346][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.369][INFO]: Waiting for pending navigations...
+[1533980250.376][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.376][INFO]: RESPONSE TypeElement
+[1533980250.380][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-13",
+   "value": [ "" ]
+}
+[1533980250.380][INFO]: Waiting for pending navigations...
+[1533980250.381][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.402][INFO]: Waiting for pending navigations...
+[1533980250.413][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.413][INFO]: RESPONSE TypeElement
+[1533980250.418][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-13",
+   "value": [ "" ]
+}
+[1533980250.418][INFO]: Waiting for pending navigations...
+[1533980250.419][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.463][INFO]: Waiting for pending navigations...
+[1533980250.464][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.464][INFO]: RESPONSE TypeElement
+[1533980250.467][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Возраст детей'])[1]/following::select[2]"
+}
+[1533980250.467][INFO]: Waiting for pending navigations...
+[1533980250.468][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.490][INFO]: Waiting for pending navigations...
+[1533980250.491][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.491][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-16"
+}
+[1533980250.494][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-16"
+}
+[1533980250.494][INFO]: Waiting for pending navigations...
+[1533980250.495][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.610][INFO]: Waiting for pending navigations...
+[1533980250.616][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.616][INFO]: RESPONSE ClickElement
+[1533980250.621][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.621][INFO]: Waiting for pending navigations...
+[1533980250.636][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.670][INFO]: Waiting for pending navigations...
+[1533980250.681][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.681][INFO]: RESPONSE TypeElement
+[1533980250.684][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.684][INFO]: Waiting for pending navigations...
+[1533980250.685][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.702][INFO]: Waiting for pending navigations...
+[1533980250.713][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.713][INFO]: RESPONSE TypeElement
+[1533980250.719][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.719][INFO]: Waiting for pending navigations...
+[1533980250.720][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.737][INFO]: Waiting for pending navigations...
+[1533980250.747][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.747][INFO]: RESPONSE TypeElement
+[1533980250.750][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.750][INFO]: Waiting for pending navigations...
+[1533980250.751][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.769][INFO]: Waiting for pending navigations...
+[1533980250.777][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.777][INFO]: RESPONSE TypeElement
+[1533980250.782][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.782][INFO]: Waiting for pending navigations...
+[1533980250.783][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.800][INFO]: Waiting for pending navigations...
+[1533980250.807][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.807][INFO]: RESPONSE TypeElement
+[1533980250.813][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.813][INFO]: Waiting for pending navigations...
+[1533980250.814][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.833][INFO]: Waiting for pending navigations...
+[1533980250.839][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.839][INFO]: RESPONSE TypeElement
+[1533980250.844][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.845][INFO]: Waiting for pending navigations...
+[1533980250.846][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.867][INFO]: Waiting for pending navigations...
+[1533980250.874][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.874][INFO]: RESPONSE TypeElement
+[1533980250.877][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.877][INFO]: Waiting for pending navigations...
+[1533980250.878][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.897][INFO]: Waiting for pending navigations...
+[1533980250.904][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.904][INFO]: RESPONSE TypeElement
+[1533980250.909][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.909][INFO]: Waiting for pending navigations...
+[1533980250.910][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.954][INFO]: Waiting for pending navigations...
+[1533980250.963][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.963][INFO]: RESPONSE TypeElement
+[1533980250.967][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980250.967][INFO]: Waiting for pending navigations...
+[1533980250.968][INFO]: Done waiting for pending navigations. Status: ok
+[1533980250.990][INFO]: Waiting for pending navigations...
+[1533980251.001][INFO]: Done waiting for pending navigations. Status: ok
+[1533980251.001][INFO]: RESPONSE TypeElement
+[1533980251.006][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980251.006][INFO]: Waiting for pending navigations...
+[1533980251.007][INFO]: Done waiting for pending navigations. Status: ok
+[1533980251.026][INFO]: Waiting for pending navigations...
+[1533980251.033][INFO]: Done waiting for pending navigations. Status: ok
+[1533980251.033][INFO]: RESPONSE TypeElement
+[1533980251.039][INFO]: COMMAND TypeElement {
+   "id": "0.902910936722056-16",
+   "value": [ "" ]
+}
+[1533980251.039][INFO]: Waiting for pending navigations...
+[1533980251.040][INFO]: Done waiting for pending navigations. Status: ok
+[1533980251.084][INFO]: Waiting for pending navigations...
+[1533980251.084][INFO]: Done waiting for pending navigations. Status: ok
+[1533980251.084][INFO]: RESPONSE TypeElement
+[1533980251.086][INFO]: COMMAND GetWindow {
+
+}
+[1533980251.087][INFO]: RESPONSE GetWindow "CDwindow-C787073B4DBB395FF5D85FB3E0DE9D69"
+[1533980251.089][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='лучшие онлайн предложения!'])[1]/following::button[1]"
+}
+[1533980251.089][INFO]: Waiting for pending navigations...
+[1533980251.090][INFO]: Done waiting for pending navigations. Status: ok
+[1533980251.112][INFO]: Waiting for pending navigations...
+[1533980251.113][INFO]: Done waiting for pending navigations. Status: ok
+[1533980251.113][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.902910936722056-17"
+}
+[1533980251.117][INFO]: COMMAND ClickElement {
+   "id": "0.902910936722056-17"
+}
+[1533980251.117][INFO]: Waiting for pending navigations...
+[1533980251.118][INFO]: Done waiting for pending navigations. Status: ok
+[1533980251.201][INFO]: Waiting for pending navigations...
+[1533980251.371][INFO]: Done waiting for pending navigations. Status: ok
+[1533980251.371][INFO]: RESPONSE ClickElement
+[1533980253.376][INFO]: COMMAND GetWindows {
+
+}
+[1533980253.379][INFO]: RESPONSE GetWindows [ "CDwindow-C787073B4DBB395FF5D85FB3E0DE9D69", "CDwindow-E78CBC65318AA5C89572C629265D170F" ]
+[1533980253.394][INFO]: COMMAND SwitchToWindow {
+   "name": "CDwindow-E78CBC65318AA5C89572C629265D170F"
+}
+[1533980253.396][INFO]: RESPONSE SwitchToWindow
+[1533980255.403][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[4]/button"
+}
+[1533980255.406][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1533980256.584][INFO]: Waiting for pending navigations...
+[1533980256.604][INFO]: Done waiting for pending navigations. Status: ok
+[1533980256.633][INFO]: Waiting for pending navigations...
+[1533980256.906][INFO]: Done waiting for pending navigations. Status: ok
+[1533980256.906][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.5414198619166244-1"
+}
+[1533980256.912][INFO]: COMMAND ClickElement {
+   "id": "0.5414198619166244-1"
+}
+[1533980256.912][INFO]: Waiting for pending navigations...
+[1533980256.949][INFO]: Done waiting for pending navigations. Status: ok
+[1533980257.171][INFO]: Waiting for pending navigations...
+[1533980263.377][INFO]: Done waiting for pending navigations. Status: ok
+[1533980263.377][INFO]: RESPONSE ClickElement
+[1533980266.381][INFO]: COMMAND Screenshot {
+
+}
+[1533980266.381][INFO]: Waiting for pending navigations...
+[1533980266.384][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.756][INFO]: Waiting for pending navigations...
+[1533980266.757][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.758][INFO]: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABpAAAAOECAYAAACmXHLrAAAgAElEQVR4nOzde1hU16H38S8ODl5ADGgcNAFNVQxKjhaKYrAoNl6iIa2XpmrSaJpXT3swN9KmMX2i5lRN25BetD1vOGk1TZVc1PRFTdA2RBoiCYFqQzRBqQItQuQScUaUkcv7x8zADMwgKDf193ken..."
+[1533980266.779][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "(.//*[normalize-space(text()) and normalize-space(.)='Дата заезда:'])[1]/following::span[1]"
+}
+[1533980266.779][INFO]: Waiting for pending navigations...
+[1533980266.780][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.799][INFO]: Waiting for pending navigations...
+[1533980266.799][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.799][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6084534235929131-1"
+}
+[1533980266.801][INFO]: COMMAND GetElementText {
+   "id": "0.6084534235929131-1"
+}
+[1533980266.801][INFO]: Waiting for pending navigations...
+[1533980266.802][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.818][INFO]: Waiting for pending navigations...
+[1533980266.819][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.819][INFO]: RESPONSE GetElementText "2019-01-24"
+[1533980266.825][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='container']/div[3]/div/div/div[3]/div/div[2]/span[2]"
+}
+[1533980266.825][INFO]: Waiting for pending navigations...
+[1533980266.827][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.841][INFO]: Waiting for pending navigations...
+[1533980266.842][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.842][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6084534235929131-2"
+}
+[1533980266.845][INFO]: COMMAND GetElementText {
+   "id": "0.6084534235929131-2"
+}
+[1533980266.845][INFO]: Waiting for pending navigations...
+[1533980266.846][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.863][INFO]: Waiting for pending navigations...
+[1533980266.864][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.864][INFO]: RESPONSE GetElementText "2019-01-25"
+[1533980266.867][INFO]: COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[@id='container']/div[3]/div/div/div[3]/div[2]/div/span[2]"
+}
+[1533980266.867][INFO]: Waiting for pending navigations...
+[1533980266.868][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.881][INFO]: Waiting for pending navigations...
+[1533980266.881][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.881][INFO]: RESPONSE FindElement {
+   "ELEMENT": "0.6084534235929131-3"
+}
+[1533980266.883][INFO]: COMMAND GetElementText {
+   "id": "0.6084534235929131-3"
+}
+[1533980266.883][INFO]: Waiting for pending navigations...
+[1533980266.884][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.902][INFO]: Waiting for pending navigations...
+[1533980266.902][INFO]: Done waiting for pending navigations. Status: ok
+[1533980266.902][INFO]: RESPONSE GetElementText "3 Взрослых,\n2 Детей"
+[1533980266.906][INFO]: COMMAND GetLog {
+   "type": "browser"
+}
+[1533980266.907][INFO]: RESPONSE GetLog [ {
+   "level": "INFO",
+   "message": "https://s.bookcdn.com/build/packs/js/base-0b42473479.pack.js 0:289014 \"carouFredSel: No element found for \\\".js-nh-slider\\\".\"",
+   "source": "console-api",
+   "timestamp": 1533980256576.0
+}, {
+   "level": "INFO",
+   "message": "https://s.bookcdn.com/build/packs/js/main-ng-c7cf7b3eca.pack.js 0:36810 \"http://knickerbocker-hotel-new-york.nochi.com/\"",
+   "source": "console-api",
+   "timestamp": 1533980256576.0
+}, {
+   "level": "INFO",
+   "message": "https://s.bookcdn.com/build/packs/js/main-ng-c7cf7b3eca.pack.js 0:36810 \"http://knickerbocker-hotel-new-york.nochi.com/\"",
+   "source": "console-api",
+   "timestamp": 1533980256576.0
+}, {
+   "level": "INFO",
+   "message": "https://s.bookcdn.com/build/packs/js/main-ng-c7cf7b3eca.pack.js 0:36810 \"http://knickerbocker-hotel-new-york.nochi.com/\"",
+   "source": "console-api",
+   "timestamp": 1533980256577.0
+}, {
+   "level": "INFO",
+   "message": "https://s.bookcdn.com/build/packs/js/main-ng-c7cf7b3eca.pack.js 0:36810 \"http://knickerbocker-hotel-new-york.nochi.com/\"",
+   "source": "console-api",
+   "timestamp": 1533980256577.0
+}, {
+   "level": "INFO",
+   "message": "https://s.bookcdn.com/build/packs/js/main-ng-c7cf7b3eca.pack.js 0:36810 \"http://knickerbocker-hotel-new-york.nochi.com/\"",
+   "source": "console-api",
+   "timestamp": 1533980257142.0
+}, {
+   "level": "INFO",
+   "message": "https://s.bookcdn.com/build/packs/js/main-ng-c7cf7b3eca.pack.js 0:36810 \"http://knickerbocker-hotel-new-york.nochi.com/\"",
+   "source": "console-api",
+   "timestamp": 1533980257160.0
+} ]
